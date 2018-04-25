@@ -5,10 +5,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title><spring:message code="titre.bonjour"/></title>
+<title><spring:message code="titre.bonjour"/>${personne}</title>
 </head>
 <body>
-<spring:message code="libelle.bonjour.lemonde"/>
+<spring:message code="libelle.bonjour.lemonde" arguments="${personne}"/>
 </body>
 
 
